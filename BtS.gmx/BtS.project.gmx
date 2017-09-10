@@ -97,6 +97,7 @@
     <rooms name="level1">
       <room>rooms\l1_1</room>
       <room>rooms\l1_2</room>
+      <room>rooms\destroirgovna</room>
     </rooms>
   </rooms>
   <help>
