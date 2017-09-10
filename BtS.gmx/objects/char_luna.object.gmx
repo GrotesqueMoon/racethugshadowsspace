@@ -779,6 +779,7 @@ if dir=-1{image_xscale=-1}
             <string>globalvar myRooms;
 myRooms = ds_list_create();
 ds_list_add(myRooms,l1_2);
+ds_list_add(myRooms,l1_3);
 ds_list_shuffle(myRooms);
 
 
