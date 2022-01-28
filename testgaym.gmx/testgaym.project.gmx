@@ -13,26 +13,41 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\oBox</sprite>
     <sprite>sprites\sBullet</sprite>
     <sprite>sprites\sEnemy</sprite>
+    <sprite>sprites\sEnemy2</sprite>
     <sprite>sprites\sExplosion</sprite>
     <sprite>sprites\sFecalmatter</sprite>
+    <sprite>sprites\sEnemyBoom</sprite>
     <sprite>sprites\sSkeleton1</sprite>
     <sprite>sprites\sPlayerChunk</sprite>
+    <sprite>sprites\sWall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\ExplodeIntoBumberOfChunks.gml</script>
+    <script>scripts\PlayerDeath.gml</script>
+    <script>scripts\BounceOffWalls.gml</script>
+    <script>scripts\HitByProjectile.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\oGame</object>
+    <object>objects\parEnemy</object>
+    <object>objects\oProjectile</object>
     <object>objects\oPlayer</object>
     <object>objects\oBullet</object>
     <object>objects\oEnemy</object>
+    <object>objects\oEnemy2</object>
     <object>objects\oExplosion</object>
     <object>objects\oSkeleton1</object>
     <object>objects\oFecalmatter</object>
     <object>objects\oPlayerChunk</object>
+    <object>objects\oEnemyBoom</object>
+    <object>objects\oWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
