@@ -14,6 +14,7 @@
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\oBox</sprite>
+    <sprite>sprites\sGZ</sprite>
     <sprite>sprites\sBullet</sprite>
     <sprite>sprites\sEnemy</sprite>
     <sprite>sprites\sEnemy2</sprite>
@@ -40,6 +41,7 @@
     <object>objects\oProjectile</object>
     <object>objects\oPlayer</object>
     <object>objects\oBullet</object>
+    <object>objects\oGZ</object>
     <object>objects\oEnemy</object>
     <object>objects\oEnemy2</object>
     <object>objects\oExplosion</object>
@@ -50,6 +52,7 @@
     <object>objects\oWall</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
